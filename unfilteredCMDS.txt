@@ -1,0 +1,227 @@
+    1  java --version
+    2  sudo apt update 
+    3  sudo apt install default-jdk
+    4  claera
+    5  clear
+    6  java --version
+    7  export JAVA_HOME=/usr/lib/jvm/default-java   # Adjust the path accordingly
+    8  export PATH=$PATH:$JAVA_HOME/bin
+    9  source ~/.bashrc   # or source ~/.bash_profile
+   10  java --version
+   11  sudo apt update
+   12  sudo apt install mysql-server
+   13  sudo mysql_secure_installation
+   14  clear
+   15  mysql -u root -p
+   16  sudo mysql -u root
+   17  mysql -uroot -pMyN3wP4ssw0rd
+   18  mysql -uroot -p
+   19  sudo apt-get remove --purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+   20  sudo rm -rf /etc/mysql /var/lib/mysql
+   21  sudo apt-get autoremove
+   22  sudo apt-get autoclean
+   23  sudo apt install mysql-server
+   24  lear
+   25  clera
+   26  clear
+   27  sudo service mysql status
+   28  clear
+   29  mysql -uroot
+   30  mysql -uroot -p
+   31  sudo mysql
+   32  sudo mysql -uroot -p
+   33  git clone https://github.com/scbushan05/expense-manager-api.git
+   34  ls
+   35  cd expense-manager-api/
+   36  cd src/
+   37  ls
+   38  cd main/
+   39  ls
+   40  clear
+   41  cd resources/
+   42  ls
+   43  cd a
+   44  vi application.properties 
+   45  cat application.properties 
+   46  nano application.properties 
+   47  cat application.properties 
+   48  mvn --version
+   49  sudo apt install maven
+   50  clear
+   51  mvn --version
+   52  mv package
+   53  mvn package
+   54  sudo mvn package
+   55  cd ..
+   56  sudo mvn package
+   57  cd expense-manager-api/
+   58  cd target/
+   59  ls
+   60  clear
+   61  cd ..
+   62  mvn package
+   63  mvn install
+   64  ls
+   65  mvn clean
+   66  mvn package -X
+   67  lear
+   68  clear
+   69  ls
+   70  cd src/
+   71  ls
+   72  cd test/
+   73  ls
+   74  nano java/
+   75  cd jaj
+   76  cd java/
+   77  ls
+   78  cd in/
+   79  ls
+   80  cd bushansirgur/
+   81  ls
+   82  cd expensetrackerapi/
+   83  ls
+   84  nano ExpensetrackerapiApplicationTests.java 
+   85  cd ..
+   86  mvn package
+   87  sudo mvn package
+   88  sudo mvn clean
+   89  sudo mvn install
+   90  ./mvnw clean package
+   91  sudo mvn clean package
+   92  java --version
+   93  sudo apt install openjdk-17-jdk openjdk-17-jre
+   94  clear
+   95  sudo mvn clean package
+   96  java -jar ./target/expensetrackerapi-1.0.0.jar 
+   97  ls
+   98  cd expense-manager-api/
+   99  nohup java -jar ./target/expensetrackerapi-1.0.0.jar > output.log 2>&1 &
+  100  sudo lsof -i :8080
+  101  cd ..\
+  102  cd ..
+  103  curl -o AWSApp2Container-installer-linux.tar.gz https://app2container-release-us-east-1.s3.us-east-1.amazonaws.com/latest/linux/AWSApp2Container-installer-linux.tar.gz
+  104  ls
+  105  sudo tar xvf AWSApp2Container-installer-linux.tar.gz
+  106  ls
+  107  clear
+  108  sudo mkdir a2c
+  109  ls
+  110  cd a2c/
+  111  sudo tar xvf ../a2c/AWSApp2Container-installer-linux.tar.gz
+  112  clear
+  113  cd ..\
+  114  cd ..
+  115  sudo mv ./AWSApp2Container-installer-linux.tar.gz ./a2c
+  116  cd a2c/
+  117  ls
+  118  cd ..
+  119  clear
+  120  ls
+  121  sudo rm -rf  install.sh security/ termsandconditions.txt uninstall.sh 
+  122  ls
+  123  sudo rm -rf AWSApp2Container.tar.gz  README 
+  124  ls
+  125  cd a2c/
+  126  ls
+  127  sudo tar xvf AWSApp2Container-installer-linux.tar.gz
+  128  sudo ./install.sh
+  129  clear
+  130  sudo app2container init
+  131  cd ..
+  132  aws config
+  133  sudo apt install awscli
+  134  aws config
+  135  aws configure 
+  136  app2container init
+  137  clear
+  138  sudo app2container init
+  139  ls
+  140  ~/.aws/credentials
+  141  sudo ~/.aws/credentials
+  142  cd ~
+  143  cd ls -a
+  144  ls -a 
+  145  cd .aws/
+  146  ls
+  147  cd c
+  148  clear
+  149  cat config 
+  150  cd credentials
+  151  cat credentials 
+  152  clear
+  153  cd ..
+  154  ls
+  155  cd a2c/
+  156  sudo app2container 
+  157  sudo app2container init
+  158  aws configure --profile 
+  159  cd ..
+  160  sudo app2container init
+  161  chmod 600 ~/.aws/credentials
+  162  chmod 600 ~/.aws/config
+  163  sudo app2container init
+  164  clear
+  165  sudo aws configure
+  166  clear
+  167  sudo app2container init
+  168  clear
+  169  sudo app2container inventory 
+  170  sudo app2container analyze --application-id 10523
+  171  sudo app2container analyze --application-id java-generic-a58f9b2b
+  172  cat /root/app2container/java-generic-a58f9b2b/analysis.json.
+  173  sudo cat /root/app2container/java-generic-a58f9b2b/analysis.json.
+  174  sudo cat /root/app2container/java-generic-a58f9b2b/analysis.json
+  175  sudo app2container containerize --application-id java-generic-a58f9b2b
+  176  sudo apt install docker
+  177  clear
+  178  sudo app2container containerize --application-id java-generic-a58f9b2b
+  179  sudo docker --version
+  180  curl -o AWSApp2Container-installer-linux.tar.gz https://app2container-release-us-east-1.s3.us-east-1.amazonaws.com/latest/linux/AWSApp2Container-installer-linux.tar.gz
+  181  clear
+  182  ls
+  183  sudo rm -rf aw
+  184  sudo rm -rf AWSApp2Container-installer-linux.tar.gz
+  185  ls
+  186  sudo apt install gnome-terminal
+  187  clera
+  188  clear
+  189  sudo apt remove docke
+  190  sudo apt remove docker
+  191  sudo for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+  192  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+  193  clear
+  194  # Add Docker's official GPG key:
+  195  sudo apt-get update
+  196  sudo apt-get install ca-certificates curl gnupg
+  197  sudo install -m 0755 -d /etc/apt/keyrings
+  198  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  199  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  200  # Add the repository to Apt sources:
+  201  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  202  sudo apt-get update
+  203  clear
+  204  sudo apt-get update
+  205  clear
+  206  # Add Docker's official GPG key:
+  207  sudo apt-get update
+  208  sudo apt-get install ca-certificates curl gnupg
+  209  sudo install -m 0755 -d /etc/apt/keyrings
+  210  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  211  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  212  # Add the repository to Apt sources:
+  213  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  214  sudo apt-get update
+  215  clear
+  216  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  217  sudo apt-get install ca-certificates curl gnupg
+  218  sudo install -m 0755 -d /etc/apt/keyrings
+  219  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  220  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  221  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  222  sudo apt-get update
+  223  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  224  history
